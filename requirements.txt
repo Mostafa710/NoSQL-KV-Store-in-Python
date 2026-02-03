@@ -1,0 +1,13 @@
+# KV-Store dependencies (Python 3.10+)
+# Server
+fastapi>=0.104.0,<0.110.0
+uvicorn[standard]>=0.24.0,<0.30.0
+
+# HTTP client for KVClient
+httpx>=0.25.0,<0.28.0
+
+# Testing
+pytest>=7.4.0,<8.0.0
+pytest-timeout>=2.2.0,<3.0.0
+
+# No Redis, Postgres, or other external DBs — file-based only
